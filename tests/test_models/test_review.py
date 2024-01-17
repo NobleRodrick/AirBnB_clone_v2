@@ -1,11 +1,15 @@
 #!/usr/bin/python3
-""" """
+"""
+Here comes the review class
+"""
 from tests.test_models.test_base_model import test_basemodel
 from models.review import Review
 
 
 class test_review(test_basemodel):
-    """ """
+    """
+    Class tests for the review clas
+    s"""
 
     def __init__(self, *args, **kwargs):
         """ """

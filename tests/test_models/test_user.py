@@ -1,14 +1,18 @@
 #!/usr/bin/python3
-""" """
+"""
+Here comes the user class
+"""
 from tests.test_models.test_base_model import test_basemodel
 from models.user import User
 
 
 class test_User(test_basemodel):
-    """ """
+    """
+    class to test the user class
+    """
 
     def __init__(self, *args, **kwargs):
-        """ """
+        """initiallize vars"""
         super().__init__(*args, **kwargs)
         self.name = "User"
         self.value = User
